@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica Neue, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#upper-header {
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+    font-weight:700;
+}
+
+#upper-header p {
+    margin: 0;
+    padding: 0;
+}
+
+#lower-header {
+    border-top: lightgrey solid 1px;
+    border-bottom: lightgrey solid 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    padding: 1em 4em;
+    color: rgb(90, 90, 90);
+    font-weight:550;
+}
+
+#logo-div {
+    width: 17.5em;
+}
+
+#logo {
+    width: 5.5vw;
+    height: auto;
+}
+
+#search {
+    text-align:center;
+    padding: 5px 6px 5px 20px;
+    border: lightgrey solid 1px;
+    border-radius: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#search span {
+    padding: 0.5em;
+    margin: 0 0.3em;
+}
+
+#add-guests {
+    color:rgb(180, 180, 180); 
+    font-weight:500;
+}
+
+#search-icon {
+    transform:scale(0.8);
+    color: white;
+    background-color:rgb(240, 92, 92) ;
+    padding:0.85em;
+    border-radius:50%;
+}
+
+#line-1 {
+    display: inline-block;
+    color:lightgrey;
+    height:30px;
+    width:0.2px;
+    border:lightgrey solid 0.3px;
+}
+
+#line-2 {
+    display: inline-block;
+    color:lightgrey;
+    height:30px;
+    width:0.2px;
+    border:lightgrey solid 0.3px;
+}
+
+#right-header {
+    text-align: center;
+    padding: 10px 0px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 17.5em;
+}
+
+#expand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: lightgrey solid 1px;
+    border-radius: 20px;
+    padding:0.7em 0.8em 0.7em 0.9em;
+}
+
+#lines {
+    margin-right: 0.5em;
+}
+
+
+#user-circle {
+    transform: scale(1.8);
+    margin:0 0 0 0.5em;
+}
+
+#categories {
+    padding: 2em 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#quick-cat {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 0.3em;
+    font-size: 0.89em;
+    color: rgb(121, 121, 121);
+    font-weight:550;
+}
+
+#quick-cat div {
+    margin: 0 2.4em 0 0em;
+    text-align: center;
+}
+
+#quick-cat div p {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 0.8em;
+    margin-bottom: 0;
+}
+
+#quick-cat div i {
+    transform: scale(1.4);
+}
+
+#rand-arrow {
+    padding: 0.55em 0.75em;
+    border: rgb(165, 165, 165) solid 1px;
+    border-radius: 50%;
+    transform: scale(0.8);
+    color: rgb(49, 49, 49);
+}
+
+#filters {
+    display: flex;
+    border: lightgrey solid 1px;
+    border-radius: 10px;
+    padding: 0.9em;
+    align-items: center;
+    color: rgb(49, 49, 49);
+}
+
+#filters i {
+    margin-right: 0.5em;
+    transform: scale(0.8);
+}
+
+#filters span {
+    font-size: 0.8em;
+}
+
+#main-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 4em 0 4em;
+}
+
+#main-display div img {
+    width: 270.5px;
+    height: 257px;
+    border-radius: 5%;
+}
+
+.dest-img {
+    position:relative;
+}
+
+.img-dots {
+    position: absolute;
+    display:flex;
+    justify-content:space-between;
+    bottom: 15px;
+    left: 92px;
+}
+
+.dot1 {
+    transform: scale(0.5);
+    color: white;
+}
+
+.dot2 {
+    transform: scale(0.5);
+    color:white;
+    opacity:0.8;
+}
+
+.dot3 {
+    transform: scale(0.45);
+    color:white;
+    opacity:0.7;
+}
+
+.dot4 {
+    transform: scale(0.4);
+    color:white;
+    opacity:0.6;
+}
+
+.dot5 {
+    transform: scale(0.3);
+    color:white;
+    opacity:0.5;
+}
+
+.img-hearts {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: 0.6;
+    transform: scale(1.4);
+}
+
+
+.first-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 0 0 0;
+    color: rgb(39, 39, 39) !important;
+}
+
+.in-line {
+    font-weight:bold;
+    color: rgb(39, 39, 39) !important;
+}
+
+.first-line i {
+    transform:scale(0.75);
+}
+
+.price-text {
+    margin-top: 0.5em !important;
+}
+
+.strong-price {
+    font-weight:bold;
+    color:rgb(39, 39, 39) !important;
+}
+
+.dest-preview p {
+    margin: 0.15em 0;
+    color: rgb(121, 121, 121);
+}
+
+.dest-preview {
+    margin-bottom: 3em;
+}
+
